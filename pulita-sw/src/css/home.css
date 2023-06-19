@@ -1,0 +1,179 @@
+body {
+    background-color: #0e062d;
+    color: #fff;
+    padding: 10px;
+    height: 100vh;
+}
+
+.home-container {
+    display: grid;
+    grid-template-columns: 10% 80%;
+    grid-gap: 10px;
+    
+}
+.middle-section{
+    padding-top: 15px;
+}
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 60px 0;
+}
+.dashboard .card{
+    background-color: #1d0a38;
+    width: 300px;
+    box-shadow: 1px 1px 10px #1d0a38,-1px -1px 10px #1d0a38;
+    border-radius: 30px;
+    text-align: center;
+}
+.card .data-name{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+}
+#charts_ChartBorder{
+    fill: #1d0a38;
+}
+#charts_svg{
+    border-radius: 0 0 25px 25px;
+}
+
+
+
+.selectWrapper{
+    border-radius:36px;
+    display:inline-block;
+    overflow:hidden;
+    background:#cccccc;
+    border:1px solid #4f3b60;
+    margin: 20px;
+
+  }
+  .selectBox{
+    width:140px;
+    height:40px;
+    border:0px;
+    outline:none;
+    padding: 0 10px;
+    background-color: #4f3b60;
+    color: #fff;
+
+  }
+.graph-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px;
+    border-bottom: 1px solid #ccc;
+    margin: 50x 0;
+    background-color: #1d0a38;
+    border-radius: 25px 25px 0 0;
+
+}
+.details-graph{
+    display: flex;
+    align-items: center;
+}
+.details-graph p{
+    margin: 0;
+}
+.power{
+    font-weight: bold;
+    font-size: 22px;
+}
+.stat{
+    font-size: 18px;
+}
+.ac-icon{
+    color: #4b7efe;
+}
+.dc-icon{
+    color: #4f3b60;
+}
+#charts_chart_legend_element{
+    fill: #1d0a38;
+}
+#charts_chart_legend_shape_0{
+    fill: #4b7efe;
+    stroke: #4b7efe;
+}
+#charts_chart_legend_shape_1{
+    fill: #4f3b60;
+    stroke: #4f3b60;
+}
+
+.shower-p{
+    color: #4b7efe;
+}
+.shower{
+    font-weight: bold;
+    font-size: 32px;
+}
+.cardshower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 992px) {
+    .home-container { 
+        grid-template-columns: 100%;
+        grid-template-rows: 80px auto auto; 
+    }
+    .middle-section h1{
+        display: none;
+    }
+    .dashboard{
+        flex-wrap: wrap;
+        margin-top: 0;
+        justify-content: center;
+    }
+    .dashboard .card{
+        margin: 20px;
+    }
+    .graph-header{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 30px 10px;
+        
+    
+    }
+    .statistics{
+        width: 100%;
+    }
+    .details-graph{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .selectWrapper{
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

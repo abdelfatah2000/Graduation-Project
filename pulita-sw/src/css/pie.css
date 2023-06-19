@@ -1,0 +1,55 @@
+#pie-chart_Series_0_Point_0{
+    fill: #5500cf !important;
+    stroke: #5500cf !important;
+}
+#pie-chart_Series_0_Point_1{
+    fill: #371963 !important;
+    stroke: #371963 !important;
+}
+#pie-chartPointHover_Border{
+    fill: none !important;
+    stroke: none !important;
+}
+#pie-chart_svg{
+    height: 310px !important;
+    
+}
+#pie-chart{
+    top: -100px !important;
+}
+#pie-chart_border{
+    height: 0px !important;
+}
+.dounut-container{
+    height: 230px;
+}
+#pie-chart1_Series_0_Point_0{
+    fill: #5500cf !important;
+    stroke: #5500cf !important;
+}
+#pie-chart1_Series_0_Point_1{
+    fill: #371963 !important;
+    stroke: #371963 !important;
+}
+#pie-chart1PointHover_Border{
+    fill: none !important;
+    stroke: none !important;
+}
+#pie-chart1_svg{
+    height: 310px !important;
+    
+}
+#pie-chart1{
+    top: -100px !important;
+}
+#pie-chart1_border{
+    height: 0px !important;
+}
+.cloud{
+    color:#27e55d;
+    margin: 0;
+}
+.cloud span{
+    color: transparent;
+    text-shadow: 0 0 0 #27e55d;
+}
