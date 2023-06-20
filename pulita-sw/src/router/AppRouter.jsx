@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Home from "./Home";
-import Pie from "./Pie"
 import { BrowserRouter, Route } from "react-router-dom";
+import Detection from "./Detection";
 
 
 export default class AppRouter extends Component {
@@ -29,15 +29,15 @@ export default class AppRouter extends Component {
                                 <Home />
                             );
                         }}
-                        path="/home"
+                        path="/Prediction"
                     />
                      <Route
                         component={() => {
                             return (
-                                <Pie />
+                                <Detection />
                             );
                         }}
-                        path="/pie"
+                        path="/Detection"
                     />
                     
                 </BrowserRouter>
